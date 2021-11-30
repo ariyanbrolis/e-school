@@ -195,7 +195,7 @@ nav ul li a {
  .course {
      width: 300px;
      height: 370px;
-     background: #FFFFFF;
+     background: linear-gradient(#FFFFFF 70%, rgb(231, 224, 224));
      box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
      border-radius: 18px;
  }
@@ -214,6 +214,7 @@ nav ul li a {
      text-align: center;
      margin-top: 8px;
      color: #413960;
+     text-transform: uppercase;
 
  }
 
@@ -299,6 +300,7 @@ nav ul li a {
      display: flex;
      justify-content: center;
      background: #282531;
+     color: #FFFFFF;
      
  }
  footer a{
@@ -312,4 +314,22 @@ nav ul li a {
 
 footer a:hover{
     color: #34A952;
+}
+
+.last li:first-child {
+    list-style: none;
+    font-weight: bolder;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+.last ul li {
+    list-style: none;
+    text-align: center;
+}
+
+
+.last div:first-child {
+    margin-top: 40px;
 }
